@@ -46,7 +46,7 @@ function SignUp() {
             value={formData.password}
             onChange={handleInputChange}
           />
-          <button type="submit">Sign Up</button>
+          <button className="bttn" type="submit">Sign Up</button>
         </form>
       </div>
       <div className="signUpImageContainer">
