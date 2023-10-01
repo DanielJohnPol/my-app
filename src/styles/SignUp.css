@@ -1,0 +1,50 @@
+.signUpContainer  {
+    margin: 100px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  h2 {
+    margin-left: 300px;
+    display: center;
+    color: white;
+    padding: 0;
+  }
+  h3{
+    padding: 0;
+    color: white;
+    margin-left: 333px;
+    margin-bottom: 30px;
+  }
+  .signUpFormContainer {
+    flex: 1;
+    padding: 20px;
+    border-right: solid #ddd;  /* distinguishes the left side from the right side */
+    border: 15px;
+  }
+  
+  .signUpImageContainer {
+    flex: 1;
+    background-color: #f9f9f9;  /* placeholder color, replace with your image */
+  }
+  
+  input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: white;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+  
